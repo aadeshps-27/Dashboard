@@ -1,0 +1,19 @@
+a{
+   
+    text-align: center;
+    text-decoration: none;
+}
+#yes{
+    transition: .6s;
+    padding: 10px;
+}
+#yes:hover{
+    background-color: rgb(126, 2, 126);
+  box-shadow: 2px 3px 5px black;
+ 
+
+}
+mat-icon{
+    vertical-align: middle;
+    padding: 0px;
+}

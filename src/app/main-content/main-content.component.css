@@ -1,0 +1,41 @@
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+  background-image: linear-gradient(180deg, #c72c2c,rgb(75, 8, 8));
+    width: 270px;
+    height: 180px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 166, 0);
+ 
+    
+    
+}
+
+.card2{
+    background-image: linear-gradient(180deg, #e60cdb,rgb(13, 15, 15));
+    width: 270px;
+    height: 150px;
+    border: 2px solid rgb(202, 65, 243);
+    height: 180px;
+    border-radius: 20px;
+    
+}
+
+.card3{  background-image: linear-gradient(180deg, #000000,rgb(65, 68, 68));
+    width: 270px;
+    height: 150px;
+    border: 2px solid rgb(62, 204, 7);
+    height: 180px;
+    border-radius: 20px;
+    
+}
+h5{
+    font-style: italic;
+}

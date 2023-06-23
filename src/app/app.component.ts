@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'material_UI';
+  opener:boolean = true;
+  sidebarOpener(){
+    this.opener = !this.opener
+  }
 }

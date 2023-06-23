@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    font-family: 'Space Grotesk', sans-serif;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+font-style: italic;
+
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Cinzel&family=Dancing+Script&family=Graduate&family=Julius+Sans+One&family=Kaushan+Script&family=Libre+Baskerville&family=Mynerve&family=Nabla&family=Nanum+Myeongjo:wght@800&family=Play&family=Press+Start+2P&family=Prompt:ital,wght@1,300&family=Space+Grotesk&family=Teko:wght@300&display=swap');
+@import "../node_modules/@angular/material/prebuilt-themes/purple-green.css"

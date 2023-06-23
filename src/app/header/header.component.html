@@ -1,0 +1,50 @@
+<p style="box-shadow: 2px 3px 5px black; border: 5px ridge rgb(70, 70, 70);">
+    <mat-toolbar color="primary">
+      <button (click)="opener()" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon style="filter: drop-shadow(2px 3px 5px black)">menu</mat-icon>
+      </button>
+  
+      <span style="filter: drop-shadow(2px 3px 5px black); font-style: italic; margin-top:5px ;"> <img style="filter: invert(100%); position: relative; top: -5px;" src="https://th.bing.com/th/id/R.546629cbebe2ab6e9910e038f8d265a4?rik=6Mca3idA53Ftug&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f5%2fInvestment-PNG-Picture.png&ehk=rWDr32JOSkJkjZmqYE3WL8H%2fbUoBzhrjWBUNSLvMEwo%3d&risl=&pid=ImgRaw&r=0" alt="" width="25px" ></span>&nbsp; <span style="font-style: italic; text-shadow: 2px 3px 5px black;">Track Your Investments</span>
+      <span class="example-spacer"></span>
+      <mat-icon style="position: relative; left: 50px;">search</mat-icon>&nbsp;
+     
+      <p>
+        <mat-form-field appearance="outline" style="margin-top: 14px; position: relative; left: -200px; height: 60px;  width: 270px;">
+          <mat-label>Search</mat-label >
+          <input matInput placeholder="Search valid data">
+         
+       
+        </mat-form-field>
+      </p>
+      <button mat-raised-button matBadge="7" style="position: relative; left: -90px;">
+       <mat-icon>question_answer</mat-icon> Chat with our experts 24x7
+      </button>
+      <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon style="filter: drop-shadow(2px 3px 5px black)">build</mat-icon>
+      </button>
+      
+      
+      <button mat-button [matMenuTriggerFor]="menu"><button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+       
+        <img style="border-radius:50%; position: relative; top: -6px;" src="https://urim.app/wp-content/uploads/2019/05/Urim-Enterprise-626584206-1024x751.jpg" alt="" width="250px" >
+  
+      </button></button>
+<mat-menu #menu="matMenu">
+ 
+ <button mat-menu-item>
+	<mat-icon>paid</mat-icon>
+ Share Bitcoin 
+</button>
+<button mat-menu-item>
+	<mat-icon>dangerous</mat-icon>
+Delete Account
+</button>
+<button mat-menu-item>
+  <mat-icon>power_settings_new</mat-icon>
+  Logout
+</button>
+</mat-menu>
+    </mat-toolbar>
+  </p>
+  
+  <p>
